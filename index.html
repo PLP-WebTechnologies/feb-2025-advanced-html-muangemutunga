@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <!-- Ordered list with Roman numerals -->
+    <h2>car list</h2>
+    <ol type="I">
+        <li>subaru</li>
+        <li>suzuki</li>
+        <li>toyota</li>
+        <li>audi</li>
+    </ol>
+
+    <!-- External image from Pexels -->
+    <h2>Image from Pexels</h2>
+    <img src="https://www.pexels.com/photo/silhouetted-figure-holding-sun-at-tropical-beach-sunset-31167771/" alt="Sample Image from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Tom Mboya, Nairobi</td>
+            <td>+1234567890</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Moi Avenue, Nairobi</td>
+            <td>+9876543210</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>Tsavo Rd, Nairobi</td>
+            <td>+1122334455</td>
+            <td>mike@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Brown</td>
+            <td>Kimutwa, Machakos</td>
+            <td>+5566778899</td>
+            <td>emily@example.com</td>
+        </tr>
+        <tr>
+            <td>Robert White</td>
+            <td>Kalama, Machakos</td>
+            <td>+9988776655</td>
+            <td>robert@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select><br><br>
+        
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
